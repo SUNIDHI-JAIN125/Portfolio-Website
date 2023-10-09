@@ -1,0 +1,801 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background: #070707;
+    /* background: rgb(19, 5, 34); */
+    color: #fff;
+}
+
+#header{
+    width: 100%;
+    height: 130vh;
+    /* background-image: url(); */
+    background-size: cover;
+    background-position: center;  
+}
+.container{
+      padding: 1vmax;  
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 0vmax; 
+}
+
+nav  .fa-solid{
+    display: none;
+  }
+
+nav ul{
+  margin-left: 38vmax;
+
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 1.4vmax;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5vmax;
+     position: relative;
+}
+
+nav ul li a::after {
+  content: '';
+  width: 0;
+  height: 2.8px;
+  background:#d42929;
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  transition: 0.3s;
+
+}
+
+nav ul li a:hover::after{
+    width: 100%;
+}
+
+
+.firstsec{
+    display: flex;
+    /* background-color: rgb(58, 51, 51); */
+    width: 96vw;
+    height: 87vh;
+    justify-content: space-around;
+}
+
+.header-textleft{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 11vmax;
+    margin-left: 2vmax;
+    /* background-color: #23E3C9   ; */
+    font-family: 'Tourney', cursive;
+    width: 50%;
+}
+
+.header-textleft h1{
+    font-size: 4.5vmax;
+    font-family: 'Tourney', cursive;
+    margin-top: 3.5vmax;  
+}
+
+.header-textleft h1  span{
+    color: #d42929;
+    /* color: #397dea; */
+     /* color: rgb(227, 29, 29); */
+}
+
+.vline {
+    border-left: 6px solid rgb(207, 207, 227);
+    height: 35vmax;
+    position: absolute;
+    left: 48%;  
+    top: 8.5vmax;
+    border-radius: 30%;
+  }
+
+  .header-textright{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    /* background-color: rgb(159, 105, 105); */
+    width: 50%;
+    margin-top: 2vmax; 
+    padding-top: 4rem;
+    padding-left: 0.6rem;
+    font-size: 2vmax;
+    font-family: 'Tourney', cursive;
+}
+.header-textright h4{
+    position: absolute;
+    font-size: 2vmax;
+    margin-top: 5.4vmax;   
+}
+.header-textright span{
+    color: white;
+}
+
+#element{
+    color: rgb(236, 75, 75);
+    font-size: 400;
+    font-size: 2vmax; 
+}
+
+.header-textright ul{
+    margin-top: 6.5vmax;
+    margin-left: 1.8vmax;
+  
+}
+.header-textright li{
+    font-size: 1.4vmax;
+    font-family: "Roboto";
+    padding: 0.27vmax;
+     
+}
+.header-textright p{
+    /* background-color: red; */
+    font-size: 1.3vmax;
+    /* margin-left: -3.1vmax;   */
+    margin-top: 2.6vmax;
+    font: 100;
+    font-family:"Roboto";
+    /* font-family:monospace; */
+}
+
+
+
+
+/*  My Work CSS  */
+
+
+#mywork{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 150vh;
+    background: rgb(6, 6, 30);
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.slider {
+    width: 95vw;
+    height: 100vh;  
+    border-radius: 10px;
+   /* margin-left: 4.5vmax; */
+    overflow: hidden;
+    /* background-color: red; */
+    
+} 
+
+.slides{
+   width: 500vw;
+   height: 100vh;    
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   /* background-color: wheat; */
+   
+}
+
+.slides input{
+    display: none;
+}
+.slide{
+     width: 84vmax;
+     transition: 2s;
+} 
+
+.slide img{
+    width: 70vmax;
+    height: 37vmax;
+    margin-bottom: 1vmax;
+    margin-left: 12vmax;
+    margin-top: 1vmax;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.navigation-manual{
+position: absolute;
+ width: 70vmax;
+ margin-left: 14vmax;
+    margin-top: 2vmax;
+    display: flex;
+    justify-content: center;
+
+}
+
+.manual-btn{
+    
+    border: 2px solid  #ffffff;
+    padding: 0.5vmax;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.manual-btn:not(:last-child){
+    margin-right: 2.5vmax;
+}
+
+.manual-btn:hover{
+    background: #ffffff;
+}
+
+#radio1:checked ~ .first{
+  margin-left: 0;
+}
+#radio2:checked ~ .first{
+    margin-left: -33%;
+  }
+#radio3:checked ~ .first{
+    margin-left: -66%;
+  }
+#radio4:checked ~ .first{
+    margin-left: -100%;
+  }
+#radio5:checked ~ .first{
+    margin-left: -133%;
+  }
+#radio6:checked ~ .first{
+    margin-left: -167%;
+  }
+
+
+/*  Projects CSS */
+
+
+#projects{
+    
+    background: #070707;
+    /* background: rgb(19, 5, 34); */
+    /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 150vh;
+    text-align: center;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+.contentp{
+    font-size:3.3vmax;
+    font-family:monospace;
+    font-weight: 600;
+    color: #fff;
+    /* color: #347c0d8; */
+    margin-top: -9vmax;
+    padding: 1vmax;
+
+} 
+
+.project-list{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(250px , 1fr));
+    grid-gap: 3vmax;
+    margin-top: 7vmax;
+}
+
+.project{
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.project img{
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    transition: transform 0.5s;
+}
+
+.heading{
+    font-weight: 400;
+    font-size: 2vmax;
+    margin-bottom: 1.3vmax;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 1.4vmax;
+    position: relative; 
+    /* color: red; */
+}
+
+.project p{
+    font-size: 1.2vmax;
+}
+.des{
+
+width: 100%; 
+height: 0;
+background: linear-gradient(rgba(0,0,0,0.6),#f00000);
+border-radius: 10px;
+position: absolute; 
+ left: 0;
+bottom: 0; 
+ overflow: hidden;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+padding: 0 40px;
+text-align: center;
+
+transition: height 0.5s;
+ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+
+.des p{
+    font-size: 2vmax;
+}
+
+.des a{
+    margin-top: 20px;
+    color: #d42929;
+    text-decoration: none;
+    font-size: 2vmax;
+    line-height: 60px;
+    background: #fff;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.project:hover img{
+       transform: scale(1.1);
+}
+
+.project:hover .des{
+ height: 100%;
+}
+ 
+
+/*    Contact Page CSS   */
+
+
+
+#contact{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 90vh;
+    /* background:rgb(19, 5, 34);  */
+    background: #101528;
+    
+}
+.row{
+    /* background-color: burlywood; */
+    display: flex;
+    
+    justify-content: space-around;
+    
+}
+.contentc{
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    border-bottom: 3px solid rgb(242, 242, 242);
+    align-items: center;
+    margin:2vmax;
+    font-size: 3.4vmax;
+    
+}
+.contact-left{
+width: 45%;    
+}
+.contact-right{
+margin-top: 1vmax;
+ width: 45%;
+
+}
+.contact-left  p{
+    margin-left: 3vmax;
+    margin-top: 8vmax;
+    font-size: 1.5vmax;
+    color: rgb(255, 255, 255);
+font-family: "Roboto";
+    font:600;
+}
+
+
+.social-icons{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.social-icons a{
+    width: max-content;
+    font-size: 1.6vmax;
+    padding: 1vmax;
+    margin-left: 4vmax;
+    color: #d24242;
+    display: inline-block;
+    transition: transform 0.5s;
+}
+.social-icons a:hover{
+    color: #db2222;
+    transform: translateY(-5px);
+}
+
+.btn{
+    display: inline-block;
+    margin: 50px auto;
+    width: fit-content;
+    border: 1px solid black;
+    border-radius: 6px;
+    text-decoration: none;
+    color: black;
+    background: rgb(224, 224, 250);
+    padding: 1vmax 3vmax;
+    font-size: 1.3vmax;
+    margin-top: 2vmax;
+    cursor: pointer;
+}
+
+.contact-right form{
+    width: 100%;
+}
+
+form input, form textarea{
+     width: 100%;
+     border: 0;
+     outline: none; 
+     background: rgb(224, 224, 250);
+     padding: 15px;
+     margin: 15px 0;
+     color: black;
+     font-size: 1.2vmax;
+     border-radius: 6px;
+}
+
+
+form .btn:hover{
+     background-color: rgb(140, 140, 199);
+     transition: 0.6s;
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
+   align-items: center;
+    margin-top: 5vmax;
+   
+}
+
+#msg{
+    color: #61b752;
+    margin-top: -40px;
+    display: block;
+ }
+
+
+
+/*   Adding Responsiveness to CSS */
+
+
+@media only screen and (width < 1900px)  {
+    #header{
+        height: auto;
+    }
+    #projects{
+        height: 150vh;
+    }
+    #contact{
+        height: auto;
+    }
+
+}
+
+@media only screen and (width < 1400px)  {
+    #header{
+        height: 130vh;
+    }
+    #projects{
+        height: 150vh;
+    }
+    #mywork{
+        height: 130vh;
+    }
+    .slider, .slides{
+        height: auto;
+    }
+
+    #contact{
+        height:150vh;
+    }
+
+}
+
+
+@media only screen and (width < 1200px)  {
+    #header{
+        height: auto;
+    }
+    #projects{
+        height: 120vh;
+    }
+    #mywork{
+        height: 120vh;
+    }
+
+    .slider, .slides{
+        height: inherit;
+    }
+
+    #contact{
+        height:auto;
+    }
+
+}
+@media only screen and (width < 992px)  {
+    #header{
+        height: 100vh;
+    }
+    #projects{
+        height: 110vh;
+    }
+    #mywork{
+        height: 110vh;
+    }
+
+    .slider, .slides{
+        height: inherit;
+    }
+
+    #contact{
+        height: 120vh;
+    }
+
+}
+
+@media only screen and (width < 820px)  {
+   
+    #projects{
+        height: 170vh;
+    }
+    nav ul li a {
+        font-size: 1.6vmax;
+}
+#element{
+    font-size: 2.2vmax; 
+} 
+.header-textright li{
+    font-size: 1.46vmax;  
+}
+.header-textright p{
+    font-size: 1.4vmax;
+}
+.vline {
+  top: 12vmax;
+}
+.contentp{
+    font-size:3.6vmax;
+}
+.heading{
+    font-size: 2.3vmax;
+    margin-top: 1.5vmax;
+}
+.project p{
+    font-size: 1.4vmax;
+}
+.des p{
+    font-size: 2.5vmax;
+}
+.contentc{
+    font-size: 3.6vmax;
+}
+.contact-left  p{
+
+    font-size: 1.7vmax;
+}
+form input, form textarea{
+    font-size: 1.3vmax;
+}
+#projects{
+    height: 200vh;
+}
+}  
+
+
+@media only screen and (width < 600px)
+{
+    
+    #contact{
+        height: 100vh;
+    }
+    
+    .contentc{
+        font-size: 4vmax;
+    }
+    .contentp{
+        font-size:4vmax;
+    }
+    .project-list{ 
+        grid-template-columns: repeat(auto-fit, minmax(290px , 0.6fr));
+        grid-gap: 6vmax;
+        margin-top: 5vmax;
+    }
+    .contentp{
+        font-size:4vmax;
+    }
+    .heading{
+        font-size: 2.5vmax;
+        margin-top: 1.8vmax;
+    }
+    .project p{
+        font-size: 1.5vmax;
+    }
+    .des p{
+        font-size: 2.6vmax;
+    }
+    #mywork{
+        height: 100vh;
+    }
+    nav .fa-solid{
+        display: block;
+        font-size: 3vmax;
+        cursor: pointer;
+    }
+    nav ul {
+        background: #b0abab;
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 29vmax;
+        height: 100vh;
+        padding-top: 5vmax;
+        z-index: 2;
+        transition: right 0.5s;
+    }
+    
+    nav ul li{
+        display: block;
+        margin: 5vmax; 
+    }
+    nav ul li a{
+        color: black; 
+    }
+    nav ul .fa-solid{
+        position: absolute;
+        top: 3vmax;
+        left: 2vmax;
+        color: black;
+        cursor: pointer;
+    }
+    
+
+    #header{
+        height: 100vh;
+    }
+
+    .firstsec{
+        display: flex;
+        flex-direction: column;
+        /* background-color: rgb(58, 51, 51); */
+        width: 80vw;
+        height: 87vh;
+        margin: 2vmax;
+        /* justify-content: space-around; */
+    }
+    
+    .header-textleft{
+        display: flex;
+        /* flex-direction: column; */
+        position: relative;
+        margin: 11vmax;
+        margin-left: 2vmax;
+        margin-top: -5vmax;
+        /* background-color: #23E3C9   ; */
+        font-family: 'Tourney', cursive;
+        width: 95%;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .header-textleft h1{
+        font-size: 5.2vmax;
+        font-family: 'Tourney', cursive;
+        margin-top: 1vmax;  
+    }
+    
+    .header-textleft h1  span{
+        color: #d42929;
+        /* color: #397dea; */
+         /* color: rgb(227, 29, 29); */
+    }
+    
+    .vline {
+        display: none;
+      }
+    
+      .header-textright{
+        display: flex;
+        /* flex-direction: column; */
+        /* justify-content: center; */
+      
+        position: relative;
+        /* background-color: rgb(159, 105, 105); */
+        width: 95%;
+        margin-top: -28vmax; 
+        padding-top: 0rem;
+        padding-left: 0.6rem;
+        font-size: 2vmax;
+        font-family: 'Tourney', cursive;
+    }
+    .header-textright h4{
+        text-align: center;
+        position: relative;
+        font-size: 2.7vmax;
+        margin-top: 2.1vmax;   
+    }
+    .header-textright span{
+        text-align: center;
+        color: white;
+    }
+    
+    #element{
+        /* margin-top: -94vmax; */
+        color: rgb(236, 75, 75);
+        font-size: 400;
+        font-size: 3vmax; 
+    }
+    
+    .header-textright ul{
+        margin-top: 7vmax;
+        margin-left: 10vmax;
+      
+    }
+    .header-textright li{
+        font-size: 2.2vmax;
+        font-family: "Roboto";
+        padding: 0.6vmax;
+         
+    }
+    .header-textright p{
+        font-size: 2vmax;
+        margin-left: 6vmax;  
+        margin-top: 3.5vmax;
+        /* background-color: red; */
+        text-align: center;
+        font: 100;
+        font-family:monospace;
+    }
+
+}
+
+@media only screen and (width < 420px)
+{
+    #contact{
+        height: 70vh;
+    }
+    .contact-left  p{
+        font-size: 1.5vmax;
+    }   
+}
+
+
+
+
+   
