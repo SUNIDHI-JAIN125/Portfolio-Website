@@ -203,6 +203,7 @@ nav ul li a:hover::after{
 .slide{
      width: 84vmax;
      transition: 2s;
+     /* background-color: blue; */
 } 
 
 .slide img{
@@ -621,6 +622,8 @@ form input, form textarea{
 
 @media only screen and (width < 600px)
 {
+
+    
     
     #contact{
         height: 100vh;
@@ -785,6 +788,47 @@ form input, form textarea{
 
 }
 
+@media only screen and (width < 500px)
+{
+    .slider,.slides {
+       height: auto;
+       /* background-color: blue; */
+    }
+    .slide img{
+        width: 55vmax;
+        height: 30vmax;
+    }
+
+    #radio1:checked ~ .first{
+        margin-left: 0%;
+      }
+      #radio2:checked ~ .first{
+          margin-left: -23%;
+        }
+      #radio3:checked ~ .first{
+          margin-left: -60%;
+        }
+      #radio4:checked ~ .first{
+          margin-left: -100%;
+        }
+      #radio5:checked ~ .first{
+          margin-left: -145%;
+        }
+      #radio6:checked ~ .first{
+          margin-left: -190%;
+        }
+
+        .navigation-manual{
+            display: flex;
+            width: 55vmax;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+      
+}
+}
+
+
 @media only screen and (width < 420px)
 {
     #contact{
@@ -793,9 +837,36 @@ form input, form textarea{
     .contact-left  p{
         font-size: 1.5vmax;
     }   
+    
 }
 
-
-
-
+@media only screen and (width < 320px)
+{
+    #radio1:checked ~ .first{
+        margin-left: 20%;
+      }
+      #radio2:checked ~ .first{
+          margin-left: -22%;
+        }
+      #radio3:checked ~ .first{
+          margin-left: -53%;
+        }
+      #radio4:checked ~ .first{
+          margin-left: -105%;
+        }
+      #radio5:checked ~ .first{
+          margin-left: -159%;
+        }
+      #radio6:checked ~ .first{
+          margin-left: -213%;
+        }
+        .slide img{
+         margin-left: 10vmax;
+}
+.navigation-manual{
    
+     margin-left: 6vmax;
+        margin-top: 2vmax;
+}
+}
+
