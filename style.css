@@ -808,19 +808,19 @@ form input, form textarea{
         margin-left: 0;
       }
       #radio2:checked ~ .first{
-          margin-left: -23%;
+          margin-left: -50%;
         }
       #radio3:checked ~ .first{
-          margin-left: -50%;
+          margin-left: -70%;
         }
       #radio4:checked ~ .first{
           margin-left: -100%;
         }
       #radio5:checked ~ .first{
-          margin-left: -143%;
+          margin-left: -135%;
         }
       #radio6:checked ~ .first{
-          margin-left: -220%;
+          margin-left: -210%;
         }
 
         .navigation-manual{
