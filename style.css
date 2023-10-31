@@ -817,10 +817,10 @@ form input, form textarea{
           margin-left: -210%;
         }
       #radio5:checked ~ .first{
-          margin-left: -270%;
+          margin-left: -280%;
         }
       #radio6:checked ~ .first{
-          margin-left: -370%;
+          margin-left: -350%;
         }
 
         .navigation-manual{
