@@ -807,7 +807,7 @@ form input, form textarea{
         margin-left: 0%;
       }
       #radio2:checked ~ .first{
-          margin-left: -60%;
+          margin-left: -40%;
         }
       #radio3:checked ~ .first{
           margin-left: -110%;
