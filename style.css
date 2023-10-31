@@ -824,9 +824,9 @@ form input, form textarea{
 
         .navigation-manual{
             display: flex;
-            width: 55vmax;
+            width: 52vmax;
          
-     margin-left: -18vmax;
+     margin-left: -11vmax;
         margin-top: 3vmax;
         width: 35vmax;
 
@@ -873,7 +873,7 @@ form input, form textarea{
          margin-left: 10vmax;
 }
 .navigation-manual{
-     margin-left: -18vmax;
+     margin-left: -11vmax;
         margin-top: 3vmax;
         width: 35vmax;
 }
