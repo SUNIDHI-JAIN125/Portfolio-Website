@@ -814,13 +814,13 @@ form input, form textarea{
           margin-left: -140%;
         }
       #radio4:checked ~ .first{
-          margin-left: -200%;
-        }
-      #radio5:checked ~ .first{
           margin-left: -210%;
         }
+      #radio5:checked ~ .first{
+          margin-left: -270%;
+        }
       #radio6:checked ~ .first{
-          margin-left: -320%;
+          margin-left: -370%;
         }
 
         .navigation-manual{
