@@ -811,16 +811,16 @@ form input, form textarea{
           margin-left: -70%;
         }
       #radio3:checked ~ .first{
-          margin-left: -100%;
-        }
-      #radio4:checked ~ .first{
           margin-left: -140%;
         }
+      #radio4:checked ~ .first{
+          margin-left: -190%;
+        }
       #radio5:checked ~ .first{
-          margin-left: -195%;
+          margin-left: -220%;
         }
       #radio6:checked ~ .first{
-          margin-left: -250%;
+          margin-left: -290%;
         }
 
         .navigation-manual{
