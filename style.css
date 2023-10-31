@@ -868,8 +868,8 @@ form input, form textarea{
          margin-left: 10vmax;
 }
 .navigation-manual{
-     margin-left: 1vmax;
-        margin-top: 2vmax;
+     margin-left: -11vmax;
+        margin-top: 3vmax;
         width: 35vmax;
 }
 }
