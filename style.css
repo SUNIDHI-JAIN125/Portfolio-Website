@@ -807,7 +807,7 @@ form input, form textarea{
         margin-left: 0%;
       }
       #radio2:checked ~ .first{
-          margin-left: -23%;
+          margin-left: -33%;
         }
       #radio3:checked ~ .first{
           margin-left: -60%;
@@ -819,12 +819,17 @@ form input, form textarea{
           margin-left: -145%;
         }
       #radio6:checked ~ .first{
-          margin-left: -190%;
+          margin-left: -220%;
         }
 
         .navigation-manual{
             display: flex;
-            width: 55vmax;
+            width: 52vmax;
+         
+     margin-left: -5vmax;
+        margin-top: 3vmax;
+        width: 35vmax;
+
             justify-content: center;
             align-items: center;
             text-align: center;
@@ -868,7 +873,7 @@ form input, form textarea{
          margin-left: 10vmax;
 }
 .navigation-manual{
-     margin-left: -18vmax;
+     margin-left: -5vmax;
         margin-top: 3vmax;
         width: 35vmax;
 }
