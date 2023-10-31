@@ -800,6 +800,7 @@ form input, form textarea{
     }
     .slide img{
         width: 55vmax;
+        margin-left: 22vmax;
         height: 30vmax;
     }
 
