@@ -1,9 +1,9 @@
 "use client";
 
 const skills = {
-  "Primary Stack": ["Next.js", "TypeScript","Tailwind CSS","PostgreSQL", "Prisma"],
+  "Primary Stack": ["Next.js", "TypeScript","Tailwind CSS","PostgreSQL", "Prisma ORM"],
   Frontend: ["HTML", "CSS", "JavaScript", "React.js", "Redux"],
-  Backend: ["Node.js", "Express.js","MongoDB",],
+  Backend: ["Node.js", "Express.js","MongoDB","WebSockets"],
   Languages: ["C++", "TypeScript","Solidity"],
   Web3: ["Smart Contracts", "Ethereum","Solana","Web3.js",],
   Tools: [
