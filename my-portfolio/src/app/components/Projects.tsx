@@ -13,12 +13,11 @@ export default function Projects() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-16">
           {[
             {
-              title: "Grocery Store Web App",
-              image: "/GroceryStore.png",
-              description: "Online store to shop for grocery items.",
-              techStack: "MERN Stack, React-Redux",
-              liveLink: "https://grocery-store-mern-frontend.vercel.app/",
-              githubLink: "https://github.com/SUNIDHI-JAIN125/Grocery-Store-MERN",
+              title: "Dev-Score",
+              image: "/devscore.png",
+              description: "DevScore scores your GitHub & resume like a recruiter, with actionable feedback.",
+              techStack: "Gemini API, NextJS, TypeScript, Prisma ORM, Tailwind CSS ",
+              liveLink: "https://dev-score-wheat.vercel.app/",
             },
             {
               title: "Ringle (NFT AMM)",
@@ -28,14 +27,7 @@ export default function Projects() {
               liveLink: "https://block-magic-hackathon.vercel.app/",
               githubLink: "https://github.com/SUNIDHI-JAIN125/Block-Magic-Hackathon",
             },
-            {
-              title: "Pattern Memory Game",
-              image: "/pmgame.png",
-              description: "A real-time, 2-player game.",
-              techStack: "TypeScript, NextJS, WebSockets, PostgreSQL, Prisma, Shadcn-UI",
-              liveLink: "https://pattern-memory-game.vercel.app/",
-              githubLink: "https://github.com/SUNIDHI-JAIN125/Pattern-Memory-Game",
-            },
+            
             {
                 title: "CineBuddy",
                 image: "/cinebuddy.png",
@@ -43,6 +35,14 @@ export default function Projects() {
                 techStack: "NodeJs, MongoDB, Android-Development, Gemini API",
                 liveLink: "",
                 githubLink: "https://github.com/HackThisFall-Divine-Devs/CineBuddy",
+              },
+              {
+                title: "Pattern Memory Game",
+                image: "/pmgame.png",
+                description: "A real-time, 2-player game.",
+                techStack: "TypeScript, NextJS, WebSockets, PostgreSQL, Prisma, Shadcn-UI",
+                liveLink: "https://pattern-memory-game.vercel.app/",
+                githubLink: "https://github.com/SUNIDHI-JAIN125/Pattern-Memory-Game",
               },
             {
               title: "Food Copilot",
