@@ -12,6 +12,14 @@ export default function Projects() {
         </h1>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-16">
           {[
+             {
+              title: "Grocery Store Web App",
+              image: "/GroceryStore.png",
+              description: "Online store to shop for grocery items.",
+              techStack: "MERN Stack, React-Redux",
+              liveLink: "https://grocery-store-mern-frontend.vercel.app/",
+              githubLink: "https://github.com/SUNIDHI-JAIN125/Grocery-Store-MERN",
+            },
             {
               title: "Dev-Score",
               image: "/devscore.png",
