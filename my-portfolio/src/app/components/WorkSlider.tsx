@@ -11,15 +11,16 @@ interface SlideData {
 
 const slides: SlideData[] = [
   { id: 1, src: "/ringle1.png", alt: "Ringle Project" },
-  { id: 2, src: "/pmGame.png", alt: "Pattern Memory Game" },
-  { id: 3, src: "/cinebuddy.png", alt: "CineBuddy" },
-  { id: 4, src: "/fruits.png", alt: "Fruits Project" },
-  { id: 5, src: "/safe-shipping.png", alt: "Safe Shipping Project" },
-  { id: 6, src: "/foodie.png", alt: "Foodie" },
-  { id: 7, src: "/WeatherApp.png", alt: "Weather App" },
-  { id: 7, src: "/GroceryStore.png", alt: "Grocery Store Project" },
-  { id: 9, src: "/electronicstore.png", alt: "Electronic Store" },
-  { id: 10, src: "/tic-tac-toe.png", alt: "Tic Tac Toe" },
+  { id: 2, src: "/devscore.png", alt: "Dev-Score" },
+  { id: 3, src: "/pmGame.png", alt: "Pattern Memory Game" },
+  { id: 4, src: "/cinebuddy.png", alt: "CineBuddy" },
+  { id: 5, src: "/fruits.png", alt: "Fruits Project" },
+  { id: 6, src: "/safe-shipping.png", alt: "Safe Shipping Project" },
+  { id: 7, src: "/foodie.png", alt: "Foodie" },
+  { id: 8, src: "/WeatherApp.png", alt: "Weather App" },
+  { id: 9, src: "/GroceryStore.png", alt: "Grocery Store Project" },
+  { id: 10, src: "/electronicstore.png", alt: "Electronic Store" },
+  { id: 11, src: "/tic-tac-toe.png", alt: "Tic Tac Toe" },
   
 ];
 
