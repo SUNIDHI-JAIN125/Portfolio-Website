@@ -35,7 +35,6 @@ export default function Projects() {
               liveLink: "https://block-magic-hackathon.vercel.app/",
               githubLink: "https://github.com/SUNIDHI-JAIN125/Block-Magic-Hackathon",
             },
-            
             {
                 title: "CineBuddy",
                 image: "/cinebuddy.png",
