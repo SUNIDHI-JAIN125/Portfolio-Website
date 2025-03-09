@@ -89,7 +89,6 @@ export default function Projects() {
               key={project.title}
               className="relative overflow-hidden mt-16 rounded-lg group"
             >
-             
               <Image
                 src={project.image}
                 alt={project.title}
